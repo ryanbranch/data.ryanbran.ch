@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Excluded from Site Generation
+personal/
+sandbox/
+private/
+ignore/
