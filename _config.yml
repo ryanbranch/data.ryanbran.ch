@@ -1,0 +1,63 @@
+# Site settings
+title: data.ryanbran.ch
+author: "Ryan Branch"
+description: >- # this means to ignore newlines until "baseurl:"
+  data.ryanbran.ch serves content excluded from the ryanbranch.github.io repository
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ryanbran.ch" # the base hostname & protocol for your site, e.g. http://example.com
+# Contact-related
+email: contact.ryanbran.ch@gmail.com
+github_username:  ryanbranch
+linkedin_username: ryanbranch
+twitter_username: rjbranch
+orcid_id: "0000-0001-6456-3468"
+google_scholar_id: "tkVpzE4AAAAJ"
+# Contact Form Configuration
+formspree_endpoint_contact: "xbjpgbvy"
+
+# Static Page Permalinks
+# NOTE: MUST BE UPDATED TO MATCH THE PERMALINKS SET IN THE FRONT MATTER OF EACH RELEVANT PAGE
+permalink_portfolio: "/portfolio/"
+permalink_software_projects: "/software/"
+permalink_hardware_projects: "/hardware/"
+permalink_experience: "/experience/"
+
+# Special Characters
+right_arrow: "&#9656;"
+
+# Google-related
+google_analytics: false
+#google_analytics_tracking_id: "UA-158059409-4"
+google_fonts: false
+# Display Toggles
+footer_email: false
+
+
+# Build settings
+markdown: kramdown
+# Commented out the line below in order to use jekyanbranch as the base theme
+#theme: minima
+remote_theme: ryanbranch/jekyanbranch@main
+plugins:
+  - jekyll-feed
+  # Added to support the use of http://github.com/ryanbranch/jekyanbranch
+  # as a theme DURING LOCAL DEVELOPMENT. This line is not needed in order
+  # for a GitHub Pages repo to use another GitHub repo as a Jekyll theme.
+  - jekyll-remote-theme
+  
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+exclude:
+  - personal/
+  - sandbox/
+  - private/
+  - ignore/
