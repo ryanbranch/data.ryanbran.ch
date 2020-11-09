@@ -8,6 +8,7 @@ url: "https://ryanbran.ch" # the base hostname & protocol for your site, e.g. ht
 # Contact-related
 email: contact.ryanbran.ch@gmail.com
 github_username:  ryanbranch
+github_gist: true
 linkedin_username: ryanbranch
 twitter_username: rjbranch
 discord_username: "RyanBranch"
@@ -29,7 +30,7 @@ right_arrow: "&#9656;"
 
 # Google-related
 google_analytics: false
-#google_analytics_tracking_id: "UA-158059409-4"
+#google_analytics_tracking_id: "UA-158059409-8"
 google_fonts: false
 # Display Toggles
 footer_email: false
