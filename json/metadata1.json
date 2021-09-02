@@ -1,7 +1,20 @@
 {
-  "description": "Test ERC721 token, version 6 or above.", 
+  "description": "Test ERC721 token, version 7 or above.", 
   "external_url": "https://ipfs.io/ipfs/QmZQ8x57scdDG9jMA4mLPHyZT6yYQXSkz9pn2YVH3BX7Af/", 
   "image": "https://ipfs.io/ipfs/QmZQ8x57scdDG9jMA4mLPHyZT6yYQXSkz9pn2YVH3BX7Af/thumbnail.png", 
-  "name": "TEST 6+",
-  "attributes": ["ATTRIBUTE-1", "ATTRIBUTE-2", "ATTRIBUTE-4"], 
+  "name": "TEST 7+",
+  "attributes": [
+    {
+      "trait_type": "ATTRIBUTE-1", 
+      "value": "TRUE"
+    }, 
+    {
+      "trait_type": "ATTRIBUTE-2", 
+      "value": "FALSE"
+    }, 
+    {
+      "trait_type": "ATTRIBUTE-3", 
+      "value": "TRUE"
+    }
+  ] 
 }
